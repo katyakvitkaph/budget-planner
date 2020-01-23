@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 // import shortid from 'shortid';
@@ -36,7 +36,7 @@ const mapStateToProps = store => ({
   expences: getExpence(store),
 });
 
-App.propTypes = {
-  expenses: PropTypes.arrayOf(PropTypes.shape()).isRequired,
-};
+// App.propTypes = {
+//   expenses: PropTypes.arrayOf(PropTypes.shape()).isRequired,
+// };
 export default connect(mapStateToProps)(App);

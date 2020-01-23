@@ -35,4 +35,5 @@ Values.propTypes = {
   budget: PropTypes.number.isRequired,
   expence: PropTypes.number.isRequired,
   balance: PropTypes.number.isRequired,
+  // isPositive: PropTypes.bool.isRequired,
 };

@@ -6,9 +6,7 @@ import Form from '../shared/Form';
 import Label from '../shared/Label';
 import Input from '../shared/Input';
 import Button from '../shared/Button';
-// import { saveBudget } from '../../redux/budget/budgetActions';
 import { addBudget } from '../../redux/budget/budgetActions';
-// import generate from '@babel/generator';
 
 const labelStyles = `
   margin-bottom: 16px;

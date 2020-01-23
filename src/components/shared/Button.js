@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const StyledButton = styled.button`
   display: inline-flex;
@@ -32,3 +33,9 @@ const Button = ({ type = 'button', label = '', onClick = () => null }) => (
 );
 
 export default Button;
+
+Button.propTypes = {
+  type: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+};
